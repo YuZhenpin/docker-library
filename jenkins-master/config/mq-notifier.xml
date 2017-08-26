@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<com.sonymobile.jenkins.plugins.mq.mqnotifier.MQNotifierConfig plugin="mq-notifier@1.2.3">
+  <schemes>
+    <string>amqp</string>
+    <string>amqps</string>
+  </schemes>
+  <serverUri>amqp://rabbitmq:5672</serverUri>
+  <userName>rabbitmq</userName>
+  <userPassword>rabbitmq</userPassword>
+  <exchangeName></exchangeName>
+  <virtualHost></virtualHost>
+  <routingKey></routingKey>
+  <persistentDelivery>true</persistentDelivery>
+  <appId></appId>
+</com.sonymobile.jenkins.plugins.mq.mqnotifier.MQNotifierConfig>
