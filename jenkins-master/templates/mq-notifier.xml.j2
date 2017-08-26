@@ -4,12 +4,12 @@
     <string>amqp</string>
     <string>amqps</string>
   </schemes>
-  <serverUri>amqp://rabbitmq:5672</serverUri>
-  <userName>rabbitmq</userName>
-  <userPassword>rabbitmq</userPassword>
-  <exchangeName></exchangeName>
-  <virtualHost></virtualHost>
-  <routingKey></routingKey>
+  <serverUri>{{ MQ_URL }}</serverUri>
+  <userName>{{ MQ_USERNAME }}</userName>
+  <userPassword>{{ MQ_PASSWORD }}</userPassword>
+  <exchangeName>{{ MQ_EXCHANGE_NAME }}</exchangeName>
+  <virtualHost>{{ MQ_VIRTUAL_HOST }}</virtualHost>
+  <routingKey>{{ MQ_ROUTING_KEY }}</routingKey>
   <persistentDelivery>true</persistentDelivery>
   <appId></appId>
 </com.sonymobile.jenkins.plugins.mq.mqnotifier.MQNotifierConfig>

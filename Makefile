@@ -20,3 +20,6 @@ ubuntu-jenkins-mesos:
 jenkins-master:
 	docker build -t jenkins-master ./jenkins-master
 
+.PHONY: j2cli
+j2cli:
+	docker build -t j2cli ./j2cli
